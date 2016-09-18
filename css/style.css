@@ -101,6 +101,60 @@ header {
     background-color: #f6f6f6;
     float: left;
 }
+#left-bar input {
+    width: 40%;
+    margin-left: 30%;
+    float: left;
+    border-radius: 5px;
+    border: 2px solid silver;
+    padding: 5px;
+    color: rgba(98, 62, 58, 0.82);
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+#left-bar input:focus {
+    border: 1px solid #a62317;
+}
+#left-bar input#done:hover {
+    border: 1px solid #000000;
+
+}
+#left-bar textarea {
+    width: 55%;
+    margin-left: 23%;
+    float: left;
+    border-radius: 5px;
+    border: 2px solid silver;
+    padding: 5px;
+    color: rgba(98, 62, 58, 0.82);
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+    resize: none;
+}
+#messageShow {
+    width: 100%;
+    color: red;
+    float: left;
+    font-size: 1.1em;
+    text-align: center;
+}
+/* About us style */
+
+#about_us {
+    width: 100%;
+    margin-top: 10px;
+    padding: 2%;
+    border: 2px solid silver;
+    background-color: #e6e5de;
+}
+#about_us h2 {
+    margin-bottom: 10px;
+}
+
+/* Right-bar style */
+
 #big_article h2, .article h2 {
     font-weight: normal;
     font-size: 1.2em;
@@ -148,8 +202,6 @@ header {
 .article div:hover {
     background-color: #2e1717;
 }
-
-/* Right-bar style */
 #wrapper #right-bar {
     width: 20%;
     float: left;
