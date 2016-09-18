@@ -131,6 +131,7 @@ header {
     margin-bottom: 10px;
     font-size: 1.2em;
     cursor: pointer;
+    height: 150px;
     resize: none;
 }
 #messageShow {
