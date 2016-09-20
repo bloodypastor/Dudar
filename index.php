@@ -4,6 +4,7 @@
 <?php
     $title = "Новини";
     require_once "blocks/head.php";
+require_once "connect.php";
     $news = getNews();
 ?>
 
